@@ -27,3 +27,8 @@ Icon Theme : https://www.pling.com/p/1279924/
 background=[home folder here]/.config/lockscreen.jpg
 draw-grid=false
 ```
+
+## Snap .desktop files
+```bash
+sudo ln -s /var/lib/snapd/desktop/applications /usr/share/applications/
+```
