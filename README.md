@@ -7,7 +7,7 @@ thunar rofi feh i3blocks curl wget apt-transport-https dirmngr openssh-server gc
 
 ## Snap packages
 ```
-core code fast node sublime-text postman scrcpy android-studio eclipse beekeeper-studio teams discord wazzapp pycharm-community
+core code fast node sublime-text postman scrcpy android-studio eclipse beekeeper-studio teams discord wazzapp pycharm-community eog
 ```
 
 ## Themes
