@@ -2,7 +2,7 @@
 
 ## APT packages
 ```
-thunar rofi feh i3blocks curl wget apt-transport-https dirmngr openssh-server gcc g++ default-jdk i3 xorg vim tmux lightdm slick-greeter i3lock compton scrot imagemagick snapd neofetch lxappearance ffmpeg obs-studio pulseaudio pavucontrol python3-pip gnome-screenshot firmware-linux firmware-linux-nonfree evince yarn wicd-gtk transmission-gtk git handbrake nasm adb firefox-esr vlc
+thunar rofi feh i3blocks curl wget apt-transport-https dirmngr openssh-server gcc g++ default-jdk i3 xorg vim tmux lightdm slick-greeter i3lock compton scrot imagemagick snapd neofetch lxappearance ffmpeg obs-studio pulseaudio pavucontrol python3-pip gnome-screenshot firmware-linux firmware-linux-nonfree evince yarn transmission-gtk git handbrake nasm adb firefox-esr vlc
 ```
 
 ## Snap packages
