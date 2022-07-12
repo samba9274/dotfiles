@@ -147,4 +147,9 @@ sudo ln -s /var/lib/snapd/desktop/applications /usr/share/applications
 echo "export PATH=\$PATH:/snap/bin">>~/.bashrc
 
 # Copy dotfiles
-cp -r ./dotfiles/.* ~/
+cp -r ./dotfiles/.config ~/
+cp -r ./dotfiles/.xinit ~/
+cp -r ./dotfiles/.Xresources ~/
+
+# Reboot
+sudo reboot
