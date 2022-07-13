@@ -102,6 +102,7 @@ sudo snap install eog
 sudo snap install scrcpy
 sudo snap install discord
 sudo snap install postman
+sudo snap install evince
 
 # Install Corectrl
 cd ~/
