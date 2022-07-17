@@ -94,7 +94,7 @@ sudo apt -qqy install sysvinit-utils
 sudo apt -qqy install hwdata
 sudo apt -qqy install mesa-utils
 sudo apt -qqy install util-linux
-sudo apt install -qqy install python3-venv
+sudo apt -qqy install python3-venv
 
 # Install snap packages
 sudo snap install core
@@ -136,6 +136,14 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | 
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt update
 sudo apt -qqy install sublime-text
+
+# Install Node
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt -qqy install nodejs
+sudo apt -qqy install npm
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
 
 # Configure slick-greeter
 sudo tee /etc/lightdm/slick-greeter.conf<<EOF
