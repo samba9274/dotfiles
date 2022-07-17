@@ -94,6 +94,7 @@ sudo apt -qqy install sysvinit-utils
 sudo apt -qqy install hwdata
 sudo apt -qqy install mesa-utils
 sudo apt -qqy install util-linux
+sudo apt install -qqy install python3-venv
 
 # Install snap packages
 sudo snap install core
