@@ -65,35 +65,35 @@ sudo apt -qqy install virtinst
 sudo apt -qqy install libvirt-daemon
 sudo apt -qqy install virt-manager
 sudo apt -qqy install rxvt-unicode
-sudo apt -qqy install libdrm-dev
-sudo apt -qqy install cmake
-sudo apt -qqy install libqt5svg5
-sudo apt -qqy install qml-module-qtquick-controls
-sudo apt -qqy install qml-module-qtquick-controls2
-sudo apt -qqy install qml-module-qtquick-controls
-sudo apt -qqy install qml-module-qtquick-layouts
-sudo apt -qqy install qml-module-qtcharts
-sudo apt -qqy install qml-module-qt-labs-platform
-sudo apt -qqy install libkf5archive5
-sudo apt -qqy install extra-cmake-modules
-sudo apt -qqy install libqt5quickcontrols2-5
-sudo apt -qqy install qtdeclarative5-dev
-sudo apt -qqy install libqt5charts5-dev
-sudo apt -qqy install libqt5svg5-dev
-sudo apt -qqy install qttools5-dev
-sudo apt -qqy install qttools5-dev-tools
-sudo apt -qqy install libkf5auth-dev
-sudo apt -qqy install libkf5archive-dev
-sudo apt -qqy install libbotan-2-dev
-sudo apt -qqy install libbotan-2-doc
-sudo apt -qqy install python3-botan
-sudo apt -qqy install qtdeclarative5-dev
-sudo apt -qqy install libqt5charts5-dev
-sudo apt -qqy install libqt5svg5-dev
-sudo apt -qqy install sysvinit-utils
-sudo apt -qqy install hwdata
-sudo apt -qqy install mesa-utils
-sudo apt -qqy install util-linux
+# sudo apt -qqy install libdrm-dev
+# sudo apt -qqy install cmake
+# sudo apt -qqy install libqt5svg5
+# sudo apt -qqy install qml-module-qtquick-controls
+# sudo apt -qqy install qml-module-qtquick-controls2
+# sudo apt -qqy install qml-module-qtquick-controls
+# sudo apt -qqy install qml-module-qtquick-layouts
+# sudo apt -qqy install qml-module-qtcharts
+# sudo apt -qqy install qml-module-qt-labs-platform
+# sudo apt -qqy install libkf5archive5
+# sudo apt -qqy install extra-cmake-modules
+# sudo apt -qqy install libqt5quickcontrols2-5
+# sudo apt -qqy install qtdeclarative5-dev
+# sudo apt -qqy install libqt5charts5-dev
+# sudo apt -qqy install libqt5svg5-dev
+# sudo apt -qqy install qttools5-dev
+# sudo apt -qqy install qttools5-dev-tools
+# sudo apt -qqy install libkf5auth-dev
+# sudo apt -qqy install libkf5archive-dev
+# sudo apt -qqy install libbotan-2-dev
+# sudo apt -qqy install libbotan-2-doc
+# sudo apt -qqy install python3-botan
+# sudo apt -qqy install qtdeclarative5-dev
+# sudo apt -qqy install libqt5charts5-dev
+# sudo apt -qqy install libqt5svg5-dev
+# sudo apt -qqy install sysvinit-utils
+# sudo apt -qqy install hwdata
+# sudo apt -qqy install mesa-utils
+# sudo apt -qqy install util-linux
 sudo apt -qqy install python3-venv
 
 # Install snap packages
@@ -106,16 +106,16 @@ sudo snap install postman
 sudo snap install evince
 
 # Install Corectrl
-cd ~/
-git clone https://gitlab.com/corectrl/corectrl.git
-cd corectrl
-mkdir build
-cd build
-cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF ..
-make
-sudo make install
-cd ~/
-sudo rm -rf corectrl
+# cd ~/
+# git clone https://gitlab.com/corectrl/corectrl.git
+# cd corectrl
+# mkdir build
+# cd build
+# cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF ..
+# make
+# sudo make install
+# cd ~/
+# sudo rm -rf corectrl
 
 # Install Visual Studio Code
 cd ~/
